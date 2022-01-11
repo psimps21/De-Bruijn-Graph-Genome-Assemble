@@ -1,0 +1,15 @@
+digraph {
+    graph [pad="0.912,0.055" bgcolor=lightgray]
+    node [style=filled]
+    ac [fillcolor="#d62728" pos="0,0!"]
+    cg [fillcolor="#1f77b4" pos="-1,-1!"]
+    gc [fillcolor="#2ca02c" pos="-1.5,0!"]
+    gt [fillcolor="#ff7f0e" pos="-2.5,-1.5!"]
+    tc [fillcolor="#ff7f0e" pos="-1,-2!"]
+    ac -> cg
+    cg -> gc
+    gc -> cg
+    cg -> gt
+    gt -> tc
+    tc -> cg
+  }
